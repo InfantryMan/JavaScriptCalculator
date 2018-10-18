@@ -1,0 +1,46 @@
+:root {
+    --grid-gap-value: 25px;
+    --font-size: 40px;
+    --display-size: 47px;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: var(--grid-gap-value);
+    grid-template-columns: auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: cadetblue;
+    font-size: var(--font-size);
+}
+
+.grid-item-zero {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid-item-equal {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: orange;
+    color: white;
+}
+
+.grid-item-operation {
+    background-color: lightgrey;
+}
+
+.display {
+    text-align: right;
+    min-height: var(--display-size);
+    font-size: var(--font-size);
+    background-color: deepskyblue;
+}
