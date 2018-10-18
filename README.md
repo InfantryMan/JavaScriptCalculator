@@ -7,7 +7,7 @@ Webpack -- module bundler.
 
 ## How to use:
 1. `git clone https://github.com/InfantryMan/JavaScriptCalculator.git`
-2. `cd ./Calculator`
+2. `cd ./JavaScriptCalculator`
 3. Build:
     `npm build`
 4. Run tests:
