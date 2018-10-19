@@ -8,12 +8,13 @@ Webpack -- module bundler.
 ## How to use:
 1. `git clone https://github.com/InfantryMan/JavaScriptCalculator.git`
 2. `cd ./JavaScriptCalculator`
-3. Build:
+3. Install modules: `npm install`
+4. Build:
     `npm build`
-4. Run tests:
+5. Run tests:
     `npm test`
    Info about test coverage will be in directory /coverage
-5. Start server on `http://127.0.0.1:3000/`, that return index.html:
+6. Start server on `http://127.0.0.1:3000/`, that return index.html:
     `npm start`
     
 ## Screenshots:
